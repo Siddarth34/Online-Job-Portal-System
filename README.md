@@ -96,7 +96,7 @@ Each role is designed to facilitate a smooth and efficient recruitment workflow,
 
 ## 🎥 Video Demo
 
-👉 [Click here to watch the demo video on LinkedIn](https://www.linkedin.com/posts/yourname_job-portal-demo-activity-123456789)
+👉 [Click here to watch the demo video on LinkedIn]([https://www.linkedin.com/posts/yourname_job-portal-demo-activity-123456789](https://www.linkedin.com/posts/siddarthakumbajadala_java-jsp-servlets-activity-7328699760381452289-1Gye?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-WMPwBt1Gz2TEayp5aokwDdnuiWXL5Pqk))
 
 > ⏱️ Duration: 3 minutes  
 
