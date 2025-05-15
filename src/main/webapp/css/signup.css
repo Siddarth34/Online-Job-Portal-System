@@ -1,0 +1,90 @@
+
+  h2, h3 {
+    color: #004080;
+    text-align: center;
+  }
+
+  .role-select {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .role-select label {
+    margin: 0 10px;
+    font-size: 1rem;
+    display: inline-block;
+  }
+
+  .registration form {
+    width: 100%;
+    max-width: 400px;
+    background-color: rgb(216, 243, 245);
+    padding: 25px 45px 25px 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    display: none;
+  }
+
+  .registration label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+  }
+
+  .registration input,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+
+  .registration input[type="submit"] {
+    background-color: #004080;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+
+  .registration input[type="submit"]:hover {
+    background-color: #0066cc;
+  }
+
+  @media (max-width: 480px) {
+    .registration form {
+      padding: 20px;
+      max-width: 100%;
+    }
+
+    .role-select label {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+
+  .registration {
+    background: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+  }
+
+  .role-select img{
+    margin: 20px;
+    border-radius: 20px;
+    height: 180px;
+    width: 180px;
+  }
+  
+  .error-msg {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 2px;
+  }

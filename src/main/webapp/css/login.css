@@ -1,0 +1,83 @@
+/* Login Form Styles */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    background: linear-gradient(to right, #e0f0ff, #ffffff);
+    padding: 20px;
+}
+
+.login-box {
+    background-color: rgb(216, 243, 245);
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.login-box h2 {
+    text-align: center;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+.login-box label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.login-box input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background-color: #0056b3;
+}
+
+.login-box p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.login-box a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+
+/* Focus effect for input fields */
+input:focus {
+    border-color: #007bff; 
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Error field highlight */
+input.error {
+    border-color: red;
+}
+
+/* Error message styles */
+.error-msg {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}

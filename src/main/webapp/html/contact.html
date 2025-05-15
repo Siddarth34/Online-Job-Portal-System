@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="../js/script.js"></script>
+
+</head>
+
+<body>
+
+	<!-- Header -->
+	<header>
+		<div class="header-row">
+			<a href="index.html"><img src="../images/HirezyLogo.png" alt="Hirezy Logo" class="logo"></a>
+			<div class="menu-toggle" id="menu-toggle">&#9776;</div>
+		</div>
+
+		<!-- Navigation placed ABOVE search bar -->
+		<nav id="nav-menu">
+			<a href="index.html">Home</a>
+			<a href="about.html">About Us</a>
+			<a href="contact.html">Contact Us</a> 
+			<a href="signup.html">Sign up</a>
+			<a href="login.html">Login</a>
+		</nav>
+
+		<form class="search-bar" action="/ojp/searchJob" method="GET">
+			<div class="search-field">
+				<i class="fas fa-search"></i> <input type="text" name="keyword"
+					placeholder="Search by Company/Job Title">
+			</div>
+			<div class="search-field">
+				<i class="fas fa-map-marker-alt"></i> <input type="text"
+					name="location" placeholder="Location">
+			</div>
+			<div class="search-field">
+				<i class="fas fa-briefcase"></i> <input type="text"
+					name="experience" placeholder="Experience">
+			</div>
+			<button type="submit">Search</button>
+		</form>
+	</header>
+    <!-- Contact Us Description -->
+    <main class="contact-description">
+        <h2>Get in Touch</h2>
+        <p>
+            Have questions, suggestions, or need help? We're here for you!
+        </p>
+		<p>Email us directly at: <a href="mailto:support@hirezy.com">support@hirezy.com</a></p>
+    </main>
+
+
+	<!-- Contact Form -->
+
+	<form class="contact-form" action="/ojp/contact" method="post">
+    <h3>Send us a Message</h3>
+    
+    <label for="role">Role:</label>
+    <select id="role" name="role" required>
+        <option value="" disabled selected>Select your role</option>
+        <option value="Jobseeker">Jobseeker</option>
+        <option value="Recruiter">Recruiter</option>
+    </select>
+
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <button type="submit">Submit</button>
+</form>
+    
+    <!-- Footer -->
+    <footer>
+    <p>&copy; Hirezy. All rights reserved.</p>
+
+    <div class="footer-links">
+        <a href="links/privacy.html" target="_blank">Privacy Policy</a> |
+        <a href="links/terms.html" target="_blank">Terms of Service</a> |
+        <a href="links/faq.html" target="_blank">FAQs</a> |
+        <a href="contact.html">Contact Us</a>
+    </div>
+</footer>
+
+</body>
+
+</html>
