@@ -53,7 +53,7 @@ INSERT INTO applications (
 
 -- CONTACT_MESSAGES
 INSERT INTO contact_messages (
-    id, role, name, email, message
+    message_id, role, name, email, message
 ) VALUES
 (
     contact_msg_seq.NEXTVAL, 'jobseeker', 'Jobseeker One', 'jobseeker1@mail.com', 'I would like to know more about the Software Developer role.'
