@@ -53,7 +53,7 @@ CREATE TABLE applications (
 
 -- CONTACT_MESSAGES
 CREATE TABLE contact_messages (
-    id NUMBER PRIMARY KEY, 
+    message_id NUMBER PRIMARY KEY, 
     role VARCHAR2(30),
     name VARCHAR2(50),
     email VARCHAR2(100),
