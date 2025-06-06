@@ -1,5 +1,7 @@
 # Online Job Portal System
 
+View Front-end design here: https://online-job-portal-system.netlify.app/
+
 ![Company Logo](src/main/webapp/images/HirezyLogo.png)
 
 ## Overview
